@@ -1,0 +1,7 @@
+parameters:
+  username:
+    in: formData
+    name: username
+    description: Username to use for login.
+    required: true
+    type: string
